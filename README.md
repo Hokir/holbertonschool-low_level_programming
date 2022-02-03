@@ -1,1 +1,1 @@
-README.md
+Repo dedicated to learn the basics of programming
