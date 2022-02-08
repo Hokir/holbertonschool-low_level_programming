@@ -1,7 +1,11 @@
 #include <stdio.h>
-
-int main(void)
+/*
+ * main prints "_putchar"
+ */ int main(void)
 {
-printf("\_putchar");
+char = a[] = "_putchar\n";
+int a;
+for (a = 0; a <= 8; a++)
+putchar(a[i]);
 return (0);
 }
