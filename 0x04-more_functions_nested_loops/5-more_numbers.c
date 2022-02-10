@@ -4,17 +4,19 @@
  * prints numbers from 0 to 14, ten times
  */ void more_numbers(void)
 {
-int num, count;
-for (count = 0; count <= 9; count++)
+int num1, count;
+count = 0;
+while (count < 10)
 {
-for (num = 0; num <= 14; num++)
+for (num1 = 0; num1 <= 14; num1++)
 {
-if (num > 9)
+if (num1 > 9)
 {
-_putchar((num / 10) + '0');
-_putchar((num % 10) + '0');
+_putchar(num1 / 10 + '0');
+}
+_putchar(num1 % 10 + '0');
 }
 _putchar('\n');
-}
+count++;
 }
 }
