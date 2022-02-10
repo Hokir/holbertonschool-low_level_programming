@@ -3,9 +3,11 @@
 /*
  * void prints the numbers, from 0 to 9
  */ void print_numbers(void)
- {
-char num;
-for (num = 0; num <= 9; num++)
-_putchar((num % 10) + '0');
+{
+char num1;
+for (num1 = '0'; num1 <= '9'; num1++)
+{
+_putchar(num1);
+}
 _putchar('\n');
 }
